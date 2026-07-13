@@ -26,9 +26,16 @@ data quality correction — see `decision_log.md`) across:
 ## Repository Structure
 
 ```
-├── config.yaml                  # City selection, data URLs, pipeline settings
+├── config.yaml                   # City selection, data URLs, pipeline settings
 ├── requirements.txt
 ├── run_pipeline.py               # Runs the entire pipeline end-to-end
+├── docs/
+│   ├── Bangkok_Airbnb_Technical_Assessment_Report.pdf   # The full report
+│   ├── decision_log.md                                  # All engineering/analytical decisions
+│   ├── summary_completed.md
+│   ├── summary_incomplete.md
+│   ├── architecture_diagram.png
+│   └── star_schema_diagram.png
 ├── src/
 │   ├── utils/config.py           # Shared config loader
 │   ├── ingestion/                # Download pipeline (retry + logging)
@@ -45,9 +52,9 @@ data quality correction — see `decision_log.md`) across:
 │   ├── raw/                      # Downloaded source files (git-ignored)
 │   └── processed/                # Cleaned data, star schema, trained models (git-ignored)
 ├── report/
-│   └── findings/                 # All analysis notes, organized by section
-├── logs/                         # Pipeline run logs (git-ignored)
-└── decision_log.md               # Consolidated engineering/analytical decisions
+│   ├── figures/                  # All generated charts, numbered + figures_index.md
+│   └── findings/                 # Per-section analysis notes (source material for docs/ report)
+└── logs/                         # Pipeline run logs (git-ignored)
 ```
 
 ## Setup
