@@ -1,0 +1,31 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                  price   R-squared:                       0.453
+Model:                            OLS   Adj. R-squared:                  0.453
+Method:                 Least Squares   F-statistic:                     2294.
+Date:                Sun, 12 Jul 2026   Prob (F-statistic):               0.00
+Time:                        13:06:21   Log-Likelihood:            -1.7027e+05
+No. Observations:               19416   AIC:                         3.405e+05
+Df Residuals:                   19408   BIC:                         3.406e+05
+Df Model:                           7                                         
+Covariance Type:            nonrobust                                         
+========================================================================================
+                           coef    std err          t      P>|t|      [0.025      0.975]
+----------------------------------------------------------------------------------------
+const                 -539.7172     99.221     -5.440      0.000    -734.200    -345.235
+number_of_reviews       -0.7803      0.152     -5.122      0.000      -1.079      -0.482
+review_scores_rating   109.9073     20.773      5.291      0.000      69.190     150.625
+occupancy_rate_pct       3.0856      0.417      7.405      0.000       2.269       3.902
+accommodates           509.5691      7.576     67.260      0.000     494.719     524.419
+bedrooms               327.4835     14.130     23.176      0.000     299.787     355.180
+bathrooms              259.9161     14.478     17.952      0.000     231.538     288.295
+beds                  -152.6881      9.090    -16.797      0.000    -170.506    -134.870
+==============================================================================
+Omnibus:                    11646.012   Durbin-Watson:                   1.942
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):           320655.955
+Skew:                           2.398   Prob(JB):                         0.00
+Kurtosis:                      22.323   Cond. No.                         748.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

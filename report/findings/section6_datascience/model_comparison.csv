@@ -1,0 +1,4 @@
+model,test_mae,test_rmse,test_mape_pct,cv_mae,pct_improvement_vs_linear
+LinearRegression,891.54,1693.19,52.4,0.4,0.0
+RandomForest,734.42,1424.45,43.8,0.34,17.6
+XGBoost,702.64,1366.62,41.9,0.32,21.2

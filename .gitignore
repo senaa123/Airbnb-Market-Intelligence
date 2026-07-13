@@ -1,0 +1,33 @@
+# Data files (large, regeneratable via run_pipeline.py)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Logs (regenerated each run)
+logs/*
+!logs/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+venv/
+.venv/
+env/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Secrets - never commit these
+.env
+*.key
+
+# Large model artifacts (regeneratable via price_prediction.py, segmentation.py)
+data/processed/*.joblib
+data/processed/*.duckdb
+data/processed/*.parquet

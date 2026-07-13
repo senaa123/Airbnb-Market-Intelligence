@@ -1,0 +1,18 @@
+# Project configuration
+# Change the city here and re-run the pipeline.
+city:
+  name: "bangkok"                
+  listings_url: "https://data.insideairbnb.com/thailand/central-thailand/bangkok/2026-06-29/data/listings.csv.gz"
+  calendar_url: "https://data.insideairbnb.com/thailand/central-thailand/bangkok/2026-06-29/data/calendar.csv.gz"
+  reviews_url: "https://data.insideairbnb.com/thailand/central-thailand/bangkok/2026-06-29/data/reviews.csv.gz"
+  neighbourhoods_url: "https://data.insideairbnb.com/thailand/central-thailand/bangkok/2026-06-29/visualisations/neighbourhoods.csv"
+  neighbourhoods_geojson_url: "https://data.insideairbnb.com/thailand/central-thailand/bangkok/2026-06-29/visualisations/neighbourhoods.geojson"
+
+paths:
+  raw_dir: "data/raw"
+  processed_dir: "data/processed"
+  log_dir: "logs"
+
+pipeline:
+  retry_attempts: 3
+  retry_delay_seconds: 5
