@@ -1,7 +1,7 @@
 """
 hypothesis_tests.py
 Section 5.1: Formal hypothesis testing on the Airbnb dataset (H1-H5).
-Usage: python src/analysis/hypothesis_tests.py
+Usage: python src/analysis/statistics/hypothesis_tests.py
 """
 
 import sys

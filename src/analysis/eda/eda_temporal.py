@@ -3,7 +3,7 @@ eda_temporal.py
 Section 4.3: Temporal and seasonal trends — pricing evolution, review volume,
 minimum night policy shifts. Uses DuckDB directly on the calendar file since
 we need daily granularity here (the star schema is listing-grain, aggregated).
-Usage: python src/analysis/eda_temporal.py
+Usage: python src/analysis/eda/eda_temporal.py
 """
 
 import sys

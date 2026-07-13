@@ -2,7 +2,7 @@
 eda_geographic.py
 Section 4.2: Geographic and spatial analysis — listing density, price gradients,
 review score clustering by location.
-Usage: python src/analysis/eda_geographic.py
+Usage: python src/analysis/eda/eda_geographic.py
 """
 
 import sys

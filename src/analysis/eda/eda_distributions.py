@@ -2,7 +2,7 @@
 eda_distributions.py
 Section 4.1: Summary statistics and distribution analysis, queried directly
 from the star schema (fact_listings + dim_property + dim_host).
-Usage: python src/analysis/eda_distributions.py
+Usage: python src/analysis/eda/eda_distributions.py
 """
 
 import sys
